@@ -12,14 +12,14 @@
                     <div class="mb-3 col-lg-8 d-flex">
                         <select class="form-select rounded-1" name="house">
                           @foreach ($houses as $house)
-                              <option value="{{ $house}}" selected> 
+                              <option value="{{ $house}}" selected>
                                 @if ($house->status == 1)
                                     Dijual
                                 @else
-                                    Disewa                                    
+                                    Disewa
                                 @endif
                                  - {{ $house->nama_rumah }} - Price: {{ $house->harga }}M</option>
-                          @endforeach  
+                          @endforeach
                         </select>
                     </div>
                     <div class="mb-3 d-flex">
@@ -31,7 +31,7 @@
                 <div class="alert alert-success col-lg-8" role="alert">
                     {{ session('success') }}
                 </div>
-            @endif 
+            @endif
            <div class="table-responsive">
             <table class="table table-striped">
                 <tr>
@@ -70,14 +70,14 @@
                             <button class="badge bg-danger border-0" onclick="return confirm('Are you sure?')"><i class="bi bi-x-circle"></i></button>
                           </form>
                     </td>
-                </tr> 
+                </tr>
                 @endforeach
             </table>
            </div>
             <div class="d-flex justify-content-between">
                 <a href="/" class="btn btn-danger col-lg-3 rounded-0 fw-bold">CANCEL</a>
                 <a href="/spk/saw/kriteria" class="btn btn-dark col-lg-3 rounded-0 fw-bold" style="background-color: black">LAKUKAN SAW</a>
-                {{-- <a href="/spk/matriks" class="btn btn-dark col-lg-3 rounded-0 fw-bold" style="background-color: black">LAKUKAN AHP</a> --}}
+                <a href="/spk/matriks" class="btn btn-dark col-lg-3 rounded-0 fw-bold" style="background-color: black">LAKUKAN AHP</a>
             </div>
             <div class="mt-5">
                 <h5 class="fw-bold">Keterangan: </h5>
