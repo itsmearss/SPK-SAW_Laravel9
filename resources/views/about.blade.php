@@ -13,7 +13,7 @@
                     <div class="card">
                       <img src="img/aji.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title fw-bold">Annur Riyadhus Solikhin</h5>
+                        <h5 class="card-title fw-bold">Aji Jagat Saputra</h5>
                         <h6>Informatics Engineering Students</h6>
                         <hr>
                         <div class="d-flex flex-row justify-content-between text-center text-secondary fs-3">
@@ -61,7 +61,7 @@
                   <div class="card">
                     <img src="img/bima.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Annur Riyadhus Solikhin</h5>
+                        <h5 class="card-title fw-bold">Bima Arya Fatah</h5>
                         <h6>Informatics Engineering Students</h6>
                         <hr>
                         <div class="d-flex flex-row justify-content-between text-center text-secondary fs-3">
